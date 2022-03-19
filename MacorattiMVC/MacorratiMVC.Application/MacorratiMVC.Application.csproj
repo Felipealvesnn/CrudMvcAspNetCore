@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MacorattiMVC.Domain1\MacorattiMVC.Domain.csproj" />
+    <ProjectReference Include="..\MacorattiMVC.Domain\MacorattiMVC.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
