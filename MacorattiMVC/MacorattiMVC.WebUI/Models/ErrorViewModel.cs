@@ -1,5 +1,3 @@
-using System;
-
 namespace MacorattiMVC.WebUI.Models
 {
     public class ErrorViewModel

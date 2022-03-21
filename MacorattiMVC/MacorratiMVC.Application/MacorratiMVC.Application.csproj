@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MacorattiMVC.Domain1\MacorattiMVC.Domain.csproj" />
+   
     <ProjectReference Include="..\MacorattiMVC.Domain\MacorattiMVC.Domain.csproj" />
   </ItemGroup>
 

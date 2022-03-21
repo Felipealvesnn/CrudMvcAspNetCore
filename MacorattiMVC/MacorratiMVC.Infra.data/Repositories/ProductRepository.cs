@@ -12,7 +12,7 @@ namespace MacorratiMVC.Infra.data.Repositories
 {
     public class ProductRepository : IProductRepository
     {
-        private BancoContexto _categoryContext;
+        private readonly BancoContexto _categoryContext;
         public ProductRepository(BancoContexto context)
         {
             _categoryContext = context;

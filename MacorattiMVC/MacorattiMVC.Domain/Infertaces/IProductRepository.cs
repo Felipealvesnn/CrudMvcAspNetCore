@@ -9,8 +9,8 @@ namespace MacorattiMVC.Domain.Infertaces
 {
     public interface IProductRepository: IRepository<Product>
     {
-        
-       // Task<Product> PegaPorIdCategoria(int? id);
-        
+
+        // Task<Product> PegaPorIdCategoria(int? id);
+
     }
 }

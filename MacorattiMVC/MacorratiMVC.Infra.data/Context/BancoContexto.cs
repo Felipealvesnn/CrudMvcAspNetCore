@@ -1,9 +1,11 @@
 ﻿using MacorattiMVC.Domain.Entitites;
+using MacorratiMVC.Infra.data.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace MacorratiMVC.Infra.data.Context
 {
-    public class BancoContexto : DbContext
+    public class BancoContexto : IdentityDbContext<AplicacaoDoUsuario>
     {
         public BancoContexto(DbContextOptions<BancoContexto> options) : base(options)
         { }

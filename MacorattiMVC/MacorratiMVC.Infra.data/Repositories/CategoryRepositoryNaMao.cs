@@ -12,7 +12,7 @@ namespace MacorratiMVC.Infra.data.Repositories
 {
     internal class CategoryRepositoryNaMao : ICategoryRepository
     {
-        private BancoContexto _categoryContext;
+        private readonly BancoContexto _categoryContext;
         public CategoryRepositoryNaMao(BancoContexto context)
         {
             _categoryContext = context;
