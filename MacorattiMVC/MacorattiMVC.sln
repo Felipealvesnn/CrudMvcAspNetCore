@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MacorattiMVC.Infra.ioc", "M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MacorattiMVC.WebUI", "MacorattiMVC.WebUI\MacorattiMVC.WebUI.csproj", "{90DA4CB0-EA43-487D-96BD-8237D11C96D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacoattiMVC.Domain.Test", "MacoattiMVC.Domain.Test\MacoattiMVC.Domain.Test.csproj", "{80160542-D116-41C0-A020-6F2937923AE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MacoattiMVC.Domain.Test", "MacoattiMVC.Domain.Test\MacoattiMVC.Domain.Test.csproj", "{80160542-D116-41C0-A020-6F2937923AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiMVC.API", "MacorattiMVC.API\MacorattiMVC.API.csproj", "{46A07034-D92D-4EF1-9142-ADFC5F7627F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{80160542-D116-41C0-A020-6F2937923AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80160542-D116-41C0-A020-6F2937923AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80160542-D116-41C0-A020-6F2937923AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A07034-D92D-4EF1-9142-ADFC5F7627F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A07034-D92D-4EF1-9142-ADFC5F7627F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A07034-D92D-4EF1-9142-ADFC5F7627F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A07034-D92D-4EF1-9142-ADFC5F7627F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -64,6 +64,7 @@ namespace CleanArchMvc.WebUI.Controllers
             return View(productDto);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost()]
         public async Task<IActionResult> Edit(ProductDTO productDto)
         {
