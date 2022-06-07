@@ -42,7 +42,7 @@
                         @Html.DisplayFor(modelItem => item.Name)
                        
                     </td>
-                    <td>
+                    <td class="testeg">
                         <a asp-action="Edit" asp-route-id="@item.Id" title="Edit" class="btn btn-warning">
                             <span class="fas fa-edit">Editar</span>
                         </a>
@@ -57,6 +57,9 @@
                     </td>
                 </tr>
             }
+           
         </tbody>
+       
     </table>
+    
 </div>
